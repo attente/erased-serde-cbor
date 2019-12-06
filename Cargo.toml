@@ -8,6 +8,7 @@ edition = "2018"
 
 [dependencies]
 serde_cbor = { version = "0.10.2", default-features = false, features = ["alloc"] }
+erased-serde = "0.3.9"
 
 [features]
 default = ["std"]
